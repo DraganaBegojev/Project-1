@@ -120,6 +120,17 @@ ul.skills {
   background: #0399ff;
 }
 
+.interests {
+  margin: 30px auto;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: center;
+  background: #fff;
+  border: 4px solid;
+  border-color: #cbf0ff #f6dffc #ceffb8 rgb(249, 255, 206);
+  border-radius: 15px;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
