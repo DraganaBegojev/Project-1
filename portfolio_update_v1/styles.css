@@ -91,7 +91,7 @@ header .profile-image:hover {
 .location {
   background-color: #000000;
   color: #36A30F;
-  border: 1px outset #66F11A;
+  box-shadow: inset 0px 0px 32px -1px rgba(102,241,26,0.46);
 }
 
 .card {
