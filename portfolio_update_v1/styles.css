@@ -126,7 +126,7 @@ ul.skills {
   background: #0399ff;
 }
 
-.interests {
+.card-1 {
   margin: 30px auto;
   padding: 20px 40px 40px;
   max-width: 1000px;
@@ -136,6 +136,9 @@ ul.skills {
   border-radius: 15px;
 }
 
+.tasks {
+text-align: left;
+}
 
 .contact-icon {
   width: 40px;
