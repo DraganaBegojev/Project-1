@@ -140,6 +140,20 @@ ul.skills {
 text-align: left;
 }
 
+.tasks h4 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.tasks p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.tasks ul {
+  font-size: 14px;
+}
+
 .contact-icon {
   width: 40px;
   height: auto;
