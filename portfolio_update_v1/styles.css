@@ -75,9 +75,10 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border: 3px dotted rgb(254, 133, 4);
 }
 .tag {
-  background-color: #000000;
+  background-color: #102602;
   color: #66F11A;
   padding: 10px;
   border-radius: 5px;
@@ -85,8 +86,13 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .tag.name {
-  border: 2px dashed #66F11A;
+  border: 1px dashed #36A30F;
 }
+
+.tag.name:hover {
+  border: 1px dashed rgb(254, 133, 4);
+}
+
 
 .location {
   background-color: #000000;
@@ -132,8 +138,13 @@ ul.skills {
   max-width: 1000px;
   text-align: center;
   background: #fff;
-  border: 3px outset #36A30F;
   border-radius: 15px;
+  border-bottom: 3px dashed #348a06;
+  transition: all .5s;
+}
+
+.card-1:hover {
+  border-bottom: 3px solid #348a06;
 }
 
 .tasks {
